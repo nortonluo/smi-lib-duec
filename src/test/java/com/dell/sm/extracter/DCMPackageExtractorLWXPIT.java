@@ -31,12 +31,12 @@ import java.security.MessageDigest;
  *
  * @author Rahul_Ranjan2
  */
-public class DCMPackageExtractorLWXPTest {
+public class DCMPackageExtractorLWXPIT {
 
     /**
      * Default Constructor
      */
-    public DCMPackageExtractorLWXPTest() {
+    public DCMPackageExtractorLWXPIT() {
 
     }
 

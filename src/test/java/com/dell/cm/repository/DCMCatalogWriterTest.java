@@ -98,7 +98,7 @@ public class DCMCatalogWriterTest {
         DCMCatalog catalogObj = new DCMCatalog();
         DCMManifest inManifest = catalogObj.parseCatalog(catalogFile);
         System.out.println(inManifest.getVersion());
-        File outFile = new File("test\\resources\\temp_catalog.xml");
+        File outFile = new File("src\\test\\resources\\temp_catalog.xml");
         DCMCatalogWriter instance = new DCMCatalogWriter();
         int expResult = DCMErrorCodes.SUCCESS;
         int result = instance.writeCatalog(inManifest, outFile);

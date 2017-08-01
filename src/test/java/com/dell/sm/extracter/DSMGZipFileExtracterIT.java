@@ -28,12 +28,12 @@ import static org.junit.Assert.*;
  *
  * @author VIVEKANANDH_N_R
  */
-public class DSMGZipFileExtracterTest {
+public class DSMGZipFileExtracterIT {
 
     /**
      * Default constructor for DSMGZipFileExtracterTest
      */
-    public DSMGZipFileExtracterTest() {
+    public DSMGZipFileExtracterIT() {
     }
 
     /**
