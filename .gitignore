@@ -1,0 +1,6 @@
+build/
+bin/
+.settings/
+.gradle/
+test/resources/temp_catalog.xml
+src/test/output/

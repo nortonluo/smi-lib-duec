@@ -1,0 +1,27 @@
+#########################################################################
+;
+;  Notes:
+;
+;  1. Each Comment line starts with either "#" or ;
+;  2. Text file include VPD-R, VPD-W regions
+;  3. Define region by [REGION=VPD-R/W,size]
+;  4. Each line includes: Field name=Field_type (Text/Binary), "Field data"
+;  5. Supports both upper and lower case.
+
+
+###########################################################################
+; VPD text file for Taurus LOM 57416
+###########################################################################
+
+[REGION=VPD-R, 400]
+Product Name=Text,"Broadcom Adv. Dual 10G SFP+ Ethernet"
+PN=Text,"BCM957416"
+MN=Text,"1028"
+V0=Text,"FFV20.06.04.01"
+V1=Text,"DSV1028VPDR.VER2.1"
+V2=Text,"NPY2"
+V3=Text,"PMT1"
+V4=Text,"NMVBroadcom Corp"
+V5=Text,"DTINIC"
+V6=Text,"DCM1001FFFFFF1202FFFFFF1403FFFFFF1604FFFFFF1805FFFFFF1A06FFFFFF1C07FFFFFF1E08FFFFFF2101FFFFFF2302FFFFFF2503FFFFFF2704FFFFFF2905FFFFFF2B06FFFFFF2D07FFFFFF2F08FFFFFF"
+V7=Text,"L1D1"
