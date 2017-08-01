@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="DUEC" default="std" basedir=".">
+	<property environment="env"/>
+	<property name="version-number" value="${env.MAJORVERSION}.${env.MINORVERSION}.${env.BUILD_NUMBER}" />
+
+	<property name="src.dir" value="src" />
+	<property name="build.dir" value="build" />
+	<property name="class.dir" value="classes" />
+	<property name="javadoc.dir" value="${build.dir}/javadoc" />
+        <property name="test.dir" value="test"/>
+        <property name="test.classes.dir" value="${build.dir}/src/test/classes" />
+        <property name="test.results.dir" value="${build.dir}/src/test/results" />
+        
+	<path id="project-classpath">
+		<!-- libs from local project (local lib) -->
+		<fileset id="project-lib" dir="lib" includes="**/*.jar" />
+	</path>
+        
+        <path id="test.classpath">            
+            <pathelement location="lib/junit-4.10.jar" />
+            <pathelement location="lib/jcifs-1.3.17.jar" />
+            <pathelement location="lib/wiseman.jar" />
+            <pathelement location="${build.classes.dir}" />       
+        </path>
+	
+	<target name="clean">
+                <!--<delete dir="${result.dir}" />-->
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="jar" depends="clean, compile">
+		<mkdir dir="${class.dir}" />
+		<property name="jarpath" value="${build.dir}/DUEC-${env.MAJORVERSION}.${env.MINORVERSION}.jar" />
+		<jar destfile="${jarpath}" basedir="${class.dir}">
+			<manifest>
+				<attribute name="Implementation-Version" value="${version-number}" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="compile" depends="create">
+		<javac includeantruntime="false" srcdir="${src.dir}" destdir="${class.dir}" classpathref="project-classpath" />
+	</target>
+
+	<target name="create" depends="delete">
+                <mkdir dir="${class.dir}"/>
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${javadoc.dir}"/>
+	</target>
+
+	<target name="delete" >
+		<delete dir="classes"/>
+		<delete dir="${build.dir}"/>
+	</target>
+		
+	<target name="copy">
+		<copy todir="${build.dir}">
+			<fileset refid="project-lib" />
+		</copy>
+	</target>
+	
+	<target name="javadoc" description="Create API documentation">
+		<javadoc charset="UTF-8" destdir="${javadoc.dir}" classpathref="project-classpath">
+			<!-- classpath refid="project-classpath" / -->
+			<fileset dir="${src.dir}">
+				<filename name="**/*.java" />
+				<exclude name="**/dcim/**"/>
+			</fileset>
+		</javadoc>
+	</target>
+        
+       
+        <!-- This target cleans all test classes and results before test suite compilation -->
+        <target name="clean-testclasses" description="cleans the test directories">
+		<delete dir="${test.classes.dir}"/>
+                <delete dir="${test.results.dir}"/>
+        </target>
+            
+        <!-- This target compiles all the test classes and depends clean-up of test classes -->
+        <target name="compile-test" depends="clean-testclasses" description="compiles all Test classes">       
+            
+            <mkdir dir="${test.classes.dir}" />
+            <mkdir dir="${test.results.dir}" />
+               
+            <javac includeantruntime="false" srcdir="${src.dir}" destdir="${test.classes.dir}" 
+                       classpathref="project-classpath" />
+            <javac includeantruntime="true" srcdir="${test.dir}" destdir="${test.classes.dir}" 
+                   debug="on" classpathref="project-classpath">
+                <classpath refid="test.classpath"/>
+            </javac>
+             
+            <copy todir="${test.classes.dir}">
+                <fileset dir="${test.dir}">
+                    <exclude name="**/*.java"/>
+                </fileset>
+            </copy>         
+        </target>
+        
+        <!-- This target runs all the junit test cases available in the comlete test suite-->
+        <target name="test" depends="compile-test" description="runs all Test classes">
+            <junit>
+                <formatter type="brief" usefile="false" />
+                <formatter type="xml" />
+                <classpath refid ="test.classpath"/>
+                <classpath location="${test.classes.dir}" />
+
+                <batchtest todir="${test.results.dir}">
+                    <fileset dir="${test.classes.dir}" includes="**/*Test.class" />
+                </batchtest>
+            </junit>
+            
+            <junitreport todir="${test.results.dir}">
+                <fileset dir="${test.results.dir}">
+                    <include name="TEST-*.xml" />
+                </fileset>
+                
+                <report todir="${test.results.dir}" format="frames"/>
+            </junitreport>          
+             
+        </target>        
+
+	<target name="std" description="clean compile with JAR ouput and test whole project" depends="clean, compile, jar, copy, javadoc" />
+
+</project>

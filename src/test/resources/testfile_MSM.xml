@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><RMIntegrationServiceResponse xmlns="DellSystemManagement">
+    <MultipleSystemInventory>
+        <LOBCollection/>
+        <SystemTypeCollection>
+            <System id="05D0" idType="MULTISYSTEMCHASSIS" uid="3CHASSIS05D0">
+                <Name>
+                    <LocalString locale="eng">POWEREDGE FX2</LocalString>
+                </Name>
+            </System>
+        </SystemTypeCollection>
+        <OperatingSystemTypeCollection/>
+        <ComponentKindCollection>
+            <ComponentKind type="FRMW">
+                <Name>
+                    <LocalString locale="eng">FIRMWARE</LocalString>
+                </Name>
+            </ComponentKind>
+        </ComponentKindCollection>
+        <ItemTypeCollection>
+            <Item>
+                <HWDevice componentID="9101" uid="9101" type="hardware">
+                    <Name>
+                        <LocalString locale="eng">Main Board</LocalString>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="9101FRMW">
+                        <Name>
+                            <LocalString locale="eng">System Chassis Infrastructuree</LocalString>
+                        </Name>
+                    </UpdateableComponent>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="101688" uid="101688" type="hardware">
+                    <Name>
+                        <LocalString locale="eng">CMC 1</LocalString>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="101688FRMW">
+                        <Name>
+                            <LocalString locale="eng">Chassis System Management</LocalString>
+                        </Name>
+                    </UpdateableComponent>
+                </UpdateableComponentCollection>
+            </Item>
+        </ItemTypeCollection>
+        <VersionInfoCollectionAggregation>
+            <VersionInfoCollection uid="1">
+                <VersionInfo itemID="101688" itemInstance="DCIM:INSTALLED#805__CMC.Integrated.1" ucid="101688FRMW" version="1.30.200.201507292443"/>
+                <VersionInfo itemID="9101" itemInstance="DCIM:INSTALLED#System.Chassis.1#Infrastructure.1" ucid="9101FRMW" version="1.20.A00.201502058"/>
+                <Systems>
+                    <SystemInstance systemUID="3CHASSIS05D0" serviceTag="1484082" hostOSUID="" collectionAgent="MSM" agentVersion="1.0" collectionTime="2016-09-29T15:34:40"/>
+                </Systems>
+            </VersionInfoCollection>
+        </VersionInfoCollectionAggregation>
+    </MultipleSystemInventory>
+</RMIntegrationServiceResponse>

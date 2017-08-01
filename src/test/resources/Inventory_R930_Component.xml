@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SVMInventory lang="">
+    <System DeviceID="250050" systemID="06BC" Model="PowerEdge R930">
+        <Device componentID="25806" bus="" display="Dell 32 Bit uEFI Diagnostics, version 4239, 4239A33, 4239.41" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="APAC" version="4239A33" display="Dell 32 Bit uEFI Diagnostics, version 4239, 4239A33, 4239.41"/>
+        </Device>
+        <Device componentID="" bus="" display="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A2" vendorID="14E4" deviceID="168A" subDeviceID="1F5D" subVendorID="1028">
+            <Application componentType="FRMW" version="7.12.17" display="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A2"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 3 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 3 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 2 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 2 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 20 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 20 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 12 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 12 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="101100" bus="" display="Power Supply.Slot.2" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="00.1D.71" display="Power Supply.Slot.2"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 21 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 21 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="" bus="" display="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A4" vendorID="14E4" deviceID="168A" subDeviceID="1F5D" subVendorID="1028">
+            <Application componentType="FRMW" version="7.12.17" display="QLogic 577xx/578xx 10 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A4"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 7 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 7 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 9 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 9 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="101100" bus="" display="Power Supply.Slot.4" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="00.1D.71" display="Power Supply.Slot.4"/>
+        </Device>
+        <Device componentID="" bus="" display="PERC H830 Adapter" vendorID="1000" deviceID="005D" subDeviceID="1F41" subVendorID="1028">
+            <Application componentType="FRMW" version="25.4.0.0015" display="PERC H830 Adapter"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 19 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 19 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 1 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 1 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="" bus="" display="PERC H730P Adapter" vendorID="1000" deviceID="005D" subDeviceID="1F42" subVendorID="1028">
+            <Application componentType="FRMW" version="25.4.0.0015" display="PERC H730P Adapter"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 8 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 8 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="25227" bus="" display="Integrated Dell Remote Access Controller" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="2.40.40.40" display="Integrated Dell Remote Access Controller"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 15 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 15 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="159" bus="" display="BIOS" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="BIOS" version="2.0.1" display="BIOS"/>
+        </Device>
+        <Device componentID="101068" bus="" display="BP13G+EXP 0:1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="2.06" display="BP13G+EXP 0:1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 14 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 14 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="27763" bus="" display="System CPLD" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="2.0.0" display="System CPLD"/>
+        </Device>
+        <Device componentID="101100" bus="" display="Power Supply.Slot.1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="00.1D.71" display="Power Supply.Slot.1"/>
+        </Device>
+        <Device componentID="101100" bus="" display="Power Supply.Slot.3" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="00.1D.71" display="Power Supply.Slot.3"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 4 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 4 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="18981" bus="" display="Dell OS Driver Pack, 16.06.07, A00" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="APAC" version="16.06.07" display="Dell OS Driver Pack, 16.06.07, A00"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 10 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 10 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 11 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 11 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 23 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 23 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 5 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 5 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="" bus="" display="Intel(R) Ethernet 10G 2P X540-t Adapter - A0:36:9F:7E:63:5A" vendorID="8086" deviceID="1528" subDeviceID="5003" subVendorID="8086">
+            <Application componentType="FRMW" version="16.5.0" display="Intel(R) Ethernet 10G 2P X540-t Adapter - A0:36:9F:7E:63:5A"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 18 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 18 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 0 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 0 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 13 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 13 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="101734" bus="" display="OS COLLECTOR 1.1, OSC_1.1, A00" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="APAC" version="OSC_1.1" display="OS COLLECTOR 1.1, OSC_1.1, A00"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 16 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 16 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="" bus="" display="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A6" vendorID="14E4" deviceID="168A" subDeviceID="1F68" subVendorID="1028">
+            <Application componentType="FRMW" version="7.12.17" display="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A6"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 6 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 6 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="102364" bus="" display="Disk 17 in Backplane 1 of Integrated RAID Controller 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VS09" display="Disk 17 in Backplane 1 of Integrated RAID Controller 1"/>
+        </Device>
+        <Device componentID="" bus="" display="Intel(R) Ethernet 10G 2P X540-t Adapter - A0:36:9F:7E:63:58" vendorID="8086" deviceID="1528" subDeviceID="5003" subVendorID="8086">
+            <Application componentType="FRMW" version="16.5.0" display="Intel(R) Ethernet 10G 2P X540-t Adapter - A0:36:9F:7E:63:58"/>
+        </Device>
+        <Device componentID="" bus="" display="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A8" vendorID="14E4" deviceID="168A" subDeviceID="1F68" subVendorID="1028">
+            <Application componentType="FRMW" version="7.12.17" display="QLogic 577xx/578xx 1 Gb Ethernet BCM57800 - 44:A8:42:2E:78:A8"/>
+        </Device>
+    </System>
+</SVMInventory>

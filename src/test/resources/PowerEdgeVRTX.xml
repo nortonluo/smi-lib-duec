@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SVMInventory lang="">
+    <System DeviceID="250168" systemID="05CF" Model="PowerEdge VRTX">
+        <Device componentID="100252" bus="" display="CMC 1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="2.00.A00.201410160007" display="CMC 1"/>
+        </Device>
+        <Device componentID="100592" bus="" display="Main Board" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="1.36.A00.2014031723" display="Main Board"/>
+        </Device>
+        <Device componentID="30665" bus="" display="Physical Disk 0:0:4" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="LS08" display="Physical Disk 0:0:4"/>
+        </Device>
+        <Device componentID="16110" bus="" display="Physical Disk 0:0:5" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="S229" display="Physical Disk 0:0:5"/>
+        </Device>
+        <Device componentID="30665" bus="" display="Physical Disk 0:0:3" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="LS08" display="Physical Disk 0:0:3"/>
+        </Device>
+        <Device componentID="0" bus="" display="Physical Disk 0:0:7" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="FSF6" display="Physical Disk 0:0:7"/>
+        </Device>
+        <Device componentID="16110" bus="" display="Physical Disk 0:0:13" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="S22F" display="Physical Disk 0:0:13"/>
+        </Device>
+        <Device componentID="25827" bus="" display="Physical Disk 0:0:0" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="AS02" display="Physical Disk 0:0:0"/>
+        </Device>
+        <Device componentID="100252" bus="" display="CMC 2" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="2.00.A00.201410160007" display="CMC 2"/>
+        </Device>
+        <Device componentID="101025" bus="" display="Physical Disk 0:0:9" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="VE05" display="Physical Disk 0:0:9"/>
+        </Device>
+        <Device componentID="" bus="" display="Shared PERC8" vendorID="1000" deviceID="002F" subDeviceID="1F3E" subVendorID="1028">
+            <Application componentType="FRMW" version="23.8.10-0059" display="Shared PERC8"/>
+        </Device>
+        <Device componentID="30665" bus="" display="Physical Disk 0:0:8" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="LS08" display="Physical Disk 0:0:8"/>
+        </Device>
+        <Device componentID="0" bus="" display="Physical Disk 0:0:1" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="CS09" display="Physical Disk 0:0:1"/>
+        </Device>
+        <Device componentID="16110" bus="" display="Physical Disk 0:0:11" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="S22C" display="Physical Disk 0:0:11"/>
+        </Device>
+        <Device componentID="16110" bus="" display="Physical Disk 0:0:12" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="S229" display="Physical Disk 0:0:12"/>
+        </Device>
+        <Device componentID="30665" bus="" display="Physical Disk 0:0:15" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="LS08" display="Physical Disk 0:0:15"/>
+        </Device>
+        <Device componentID="16110" bus="" display="Physical Disk 0:0:6" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="S22C" display="Physical Disk 0:0:6"/>
+        </Device>
+        <Device componentID="25851" bus="" display="Physical Disk 0:0:10" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="YS0A" display="Physical Disk 0:0:10"/>
+        </Device>
+        <Device componentID="100265" bus="" display="VRTX2.5x25 0:0" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="1.02" display="VRTX2.5x25 0:0"/>
+        </Device>
+        <Device componentID="25827" bus="" display="Physical Disk 0:0:2" vendorID="" deviceID="" subDeviceID="" subVendorID="">
+            <Application componentType="FRMW" version="AS09" display="Physical Disk 0:0:2"/>
+        </Device>
+    </System>
+</SVMInventory>

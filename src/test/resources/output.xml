@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><RMIntegrationServiceResponse xmlns="DellSystemManagement">
+    <MultipleSystemInventory>
+        <LOBCollection/>
+        <SystemTypeCollection>
+            <System id="0287" idType="BIOS" uid="3BIOS0287">
+                <Name>
+                    <LocalString locale="eng"/>
+                </Name>
+            </System>
+            <System id="0000" idType="BIOS" uid="3BIOS0000">
+                <Name>
+                    <LocalString locale="eng"/>
+                </Name>
+            </System>
+            <System id="029C" idType="BIOS" uid="3BIOS029C">
+                <Name>
+                    <LocalString locale="eng"/>
+                </Name>
+            </System>
+            <System id="04DC" idType="BIOS" uid="3BIOS04DC">
+                <Name>
+                    <LocalString locale="eng"/>
+                </Name>
+            </System>
+            <System id="045D" idType="BIOS" uid="3BIOS045D">
+                <Name>
+                    <LocalString locale="eng"/>
+                </Name>
+            </System>
+            <System id="045F" idType="BIOS" uid="3BIOS045F">
+                <Name>
+                    <LocalString locale="eng"/>
+                </Name>
+            </System>
+        </SystemTypeCollection>
+        <OperatingSystemTypeCollection>
+            <OperatingSystem osCode="Microsoft6100X64ServerMicrosoft6100X64Server0000" osVendor="Microsoft" osArch="x64" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" osType="server" preinstallationEnvironment="0"/>
+            <OperatingSystem osCode="Microsoft6100X32ServerMicrosoft6100X32Server0000" osVendor="Microsoft" osArch="x86" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" osType="server" preinstallationEnvironment="0"/>
+            <OperatingSystem osCode="Redhat6100X64ServerRedhat6100X64Server0000" osVendor="Redhat" osArch="x64" majorVersion="6" minorVersion="1" spMajorVersion="0" spMinorVersion="0" osType="server" preinstallationEnvironment="0"/>
+        </OperatingSystemTypeCollection>
+        <ComponentKindCollection>
+            <ComponentKind type="APAC">
+                <Name>
+                    <LocalString locale="eng">APPLICATION</LocalString>
+                </Name>
+            </ComponentKind>
+            <ComponentKind type="BIOS">
+                <Name>
+                    <LocalString locale="eng">BIOS</LocalString>
+                </Name>
+            </ComponentKind>
+            <ComponentKind type="FRMW">
+                <Name>
+                    <LocalString locale="eng">FIRMWARE</LocalString>
+                </Name>
+            </ComponentKind>
+        </ComponentKindCollection>
+        <ItemTypeCollection>
+            <Item>
+                <HWDevice componentID="25806" uid="25806" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="APAC" uid="25806APAC"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="15051" uid="15051" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="15051FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="13792" uid="13792" type="hardware">
+                    <Name>
+                        <LocalString locale="eng">Avocent iKVM Switch</LocalString>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="13792FRMW">
+                        <Name>
+                            <LocalString locale="eng">Avocent iKVM Switch</LocalString>
+                        </Name>
+                    </UpdateableComponent>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="13793" uid="13793" type="hardware">
+                    <Name>
+                        <LocalString locale="eng">CMC 1</LocalString>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="13793FRMW">
+                        <Name>
+                            <LocalString locale="eng">CMC 1</LocalString>
+                        </Name>
+                    </UpdateableComponent>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="1000" deviceID="0058" subVendorID="1028" subDeviceID="1F0F" type="pci" uid="1000005810281F0F">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="1000005810281F0FFRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="18980" uid="18980" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="APAC" uid="18980APAC"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="18981" uid="18981" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="APAC" uid="18981APAC"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="28897" uid="28897" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="APAC" uid="28897APAC"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="1000" deviceID="0079" subVendorID="1028" subDeviceID="1F18" type="pci" uid="1000007910281F18">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="1000007910281F18FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="14E4" deviceID="164F" subVendorID="14E4" subDeviceID="1123" type="pci" uid="14E4164F14E41123">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="14E4164F14E41123FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="25227" uid="25227" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="25227FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="196" uid="196" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="APAC" uid="196APAC"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="1000" deviceID="0060" subVendorID="1028" subDeviceID="1F11" type="pci" uid="1000006010281F11">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="1000006010281F11FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="14E4" deviceID="163A" subVendorID="1028" subDeviceID="0287" type="pci" uid="14E4163A10280287">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="14E4163A10280287FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="14E4" deviceID="163A" subVendorID="1028" subDeviceID="029C" type="pci" uid="14E4163A1028029C">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="14E4163A1028029CFRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="14E4" deviceID="1662" subVendorID="1028" subDeviceID="045F" type="pci" uid="14E416621028045F">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="14E416621028045FFRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="28125" uid="28125" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="28125FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <HWDevice componentID="159" uid="159" type="hardware">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </HWDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="BIOS" uid="159BIOS"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="1077" deviceID="8020" subVendorID="1077" subDeviceID="0233" type="pci" uid="1077802010770233">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="1077802010770233FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="14E4" deviceID="165F" subVendorID="1028" subDeviceID="04DC" type="pci" uid="14E4165F102804DC">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="14E4165F102804DCFRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+            <Item>
+                <PCIDevice vendorID="1000" deviceID="0072" subVendorID="1028" subDeviceID="1F20" type="pci" uid="1000007210281F20">
+                    <Name>
+                        <LocalString locale="eng"/>
+                    </Name>
+                </PCIDevice>
+                <UpdateableComponentCollection>
+                    <UpdateableComponent type="FRMW" uid="1000007210281F20FRMW"/>
+                </UpdateableComponentCollection>
+            </Item>
+        </ItemTypeCollection>
+        <VersionInfoCollectionAggregation>
+            <VersionInfoCollection uid="0">
+                <VersionInfo itemID="13793" itemInstance="CMC 2" ucid="13793FRMW" version="4.50.X11.201308301440"/>
+                <VersionInfo itemID="13793" itemInstance="CMC 1" ucid="13793FRMW" version="4.50.X11.201308301440"/>
+                <VersionInfo itemID="13792" itemInstance="Avocent iKVM Switch" ucid="13792FRMW" version="01.00.01.01"/>
+                <Systems>
+                    <SystemInstance systemUID="3BIOS0000" serviceTag="1" hostOSUID="" collectionAgent="cmc" agentVersion="" collectionTime=""/>
+                </Systems>
+            </VersionInfoCollection>
+            <VersionInfoCollection uid="1">
+                <VersionInfo itemID="1000006010281F11" itemInstance="" ucid="1000006010281F11FRMW" version="6.3.2-0001"/>
+                <VersionInfo itemID="18981" itemInstance="" ucid="18981APAC" version="7.1.0.9"/>
+                <VersionInfo itemID="196" itemInstance="" ucid="196APAC" version="5154A0"/>
+                <VersionInfo itemID="159" itemInstance="" ucid="159BIOS" version="6.2.3"/>
+                <VersionInfo itemID="14E4163A1028029C" itemInstance="" ucid="14E4163A1028029CFRMW" version="7.2.14"/>
+                <VersionInfo itemID="15051" itemInstance="" ucid="15051FRMW" version="3.50"/>
+                <VersionInfo itemID="18980" itemInstance="" ucid="18980APAC" version="1.5.5.22"/>
+                <Systems>
+                    <SystemInstance systemUID="3BIOS029C" serviceTag="2" hostOSUID="Microsoft6100X64Server00" collectionAgent="cmc" agentVersion="" collectionTime=""/>
+                </Systems>
+            </VersionInfoCollection>
+            <VersionInfoCollection uid="2">
+                <VersionInfo itemID="18981" itemInstance="" ucid="18981APAC" version="0"/>
+                <VersionInfo itemID="196" itemInstance="" ucid="196APAC" version="5158A3"/>
+                <VersionInfo itemID="14E4164F14E41123" itemInstance="" ucid="14E4164F14E41123FRMW" version="7.6.14"/>
+                <VersionInfo itemID="159" itemInstance="" ucid="159BIOS" version="6.3.0"/>
+                <VersionInfo itemID="14E4163A1028029C" itemInstance="" ucid="14E4163A1028029CFRMW" version="7.6.14"/>
+                <VersionInfo itemID="15051" itemInstance="" ucid="15051FRMW" version="3.50"/>
+                <VersionInfo itemID="18980" itemInstance="" ucid="18980APAC" version="1.6.0.73"/>
+                <VersionInfo itemID="1000005810281F0F" itemInstance="" ucid="1000005810281F0FFRMW" version="00.25.47.00.06.22.03.00"/>
+                <Systems>
+                    <SystemInstance systemUID="3BIOS029C" serviceTag="3" hostOSUID="Microsoft6100X32Server00" collectionAgent="cmc" agentVersion="" collectionTime=""/>
+                </Systems>
+            </VersionInfoCollection>
+            <VersionInfoCollection uid="3">
+                <VersionInfo itemID="18981" itemInstance="" ucid="18981APAC" version="7.3.2.2"/>
+                <VersionInfo itemID="14E4165F102804DC" itemInstance="" ucid="14E4165F102804DCFRMW" version="7.8.4"/>
+                <VersionInfo itemID="159" itemInstance="" ucid="159BIOS" version="2.0.12"/>
+                <VersionInfo itemID="25806" itemInstance="" ucid="25806APAC" version="4229A1"/>
+                <VersionInfo itemID="25227" itemInstance="" ucid="25227FRMW" version="1.50.50"/>
+                <VersionInfo itemID="28897" itemInstance="" ucid="28897APAC" version="1.3.0.781"/>
+                <VersionInfo itemID="1077802010770233" itemInstance="" ucid="1077802010770233FRMW" version="01.12.61"/>
+                <VersionInfo itemID="28125" itemInstance="" ucid="28125FRMW" version="1.0.5"/>
+                <Systems>
+                    <SystemInstance systemUID="3BIOS04DC" serviceTag="4" hostOSUID="Redhat6100X64Server00" collectionAgent="cmc" agentVersion="" collectionTime=""/>
+                </Systems>
+            </VersionInfoCollection>
+            <VersionInfoCollection uid="4">
+                <VersionInfo itemID="18981" itemInstance="" ucid="18981APAC" version="7.0.0.4"/>
+                <VersionInfo itemID="196" itemInstance="" ucid="196APAC" version="5148A0"/>
+                <VersionInfo itemID="159" itemInstance="" ucid="159BIOS" version="6.3.0"/>
+                <VersionInfo itemID="15051" itemInstance="" ucid="15051FRMW" version="3.50"/>
+                <VersionInfo itemID="18980" itemInstance="" ucid="18980APAC" version="1.6.0.73"/>
+                <VersionInfo itemID="14E4163A10280287" itemInstance="" ucid="14E4163A10280287FRMW" version="7.4.8"/>
+                <VersionInfo itemID="1000007910281F18" itemInstance="" ucid="1000007910281F18FRMW" version="12.10.1-0001"/>
+                <Systems>
+                    <SystemInstance systemUID="3BIOS045D" serviceTag="5" hostOSUID="" collectionAgent="cmc" agentVersion="" collectionTime=""/>
+                </Systems>
+            </VersionInfoCollection>
+            <VersionInfoCollection uid="5">
+                <VersionInfo itemID="18981" itemInstance="" ucid="18981APAC" version="7.0.0.4"/>
+                <VersionInfo itemID="196" itemInstance="" ucid="196APAC" version="5158A3"/>
+                <VersionInfo itemID="159" itemInstance="" ucid="159BIOS" version="7.0.0"/>
+                <VersionInfo itemID="14E416621028045F" itemInstance="" ucid="14E416621028045FFRMW" version="7.8.0"/>
+                <VersionInfo itemID="15051" itemInstance="" ucid="15051FRMW" version="3.50"/>
+                <VersionInfo itemID="1000007210281F20" itemInstance="" ucid="1000007210281F20FRMW" version="07.02.42.00"/>
+                <VersionInfo itemID="18980" itemInstance="" ucid="18980APAC" version="1.6.0.73"/>
+                <Systems>
+                    <SystemInstance systemUID="3BIOS045F" serviceTag="6" hostOSUID="" collectionAgent="cmc" agentVersion="" collectionTime=""/>
+                </Systems>
+            </VersionInfoCollection>
+            <VersionInfoCollection uid="6">
+                <VersionInfo itemID="18981" itemInstance="" ucid="18981APAC" version="6.3.0.24"/>
+                <VersionInfo itemID="196" itemInstance="" ucid="196APAC" version="5142A0"/>
+                <VersionInfo itemID="159" itemInstance="" ucid="159BIOS" version="6.3.0"/>
+                <VersionInfo itemID="15051" itemInstance="" ucid="15051FRMW" version="3.40"/>
+                <VersionInfo itemID="18980" itemInstance="" ucid="18980APAC" version="1.4.0.481"/>
+                <VersionInfo itemID="14E4163A10280287" itemInstance="" ucid="14E4163A10280287FRMW" version="6.2.12"/>
+                <VersionInfo itemID="1000007910281F18" itemInstance="" ucid="1000007910281F18FRMW" version="12.10.1-0001"/>
+                <Systems>
+                    <SystemInstance systemUID="3BIOS0287" serviceTag="7" hostOSUID="" collectionAgent="cmc" agentVersion="" collectionTime=""/>
+                </Systems>
+            </VersionInfoCollection>
+        </VersionInfoCollectionAggregation>
+    </MultipleSystemInventory>
+</RMIntegrationServiceResponse>

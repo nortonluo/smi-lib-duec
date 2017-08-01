@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<SVMInventory serviceTag="GZ0V5Q1" lang="en" schemaVersion="1.0" invcolVersion="14.11.200 (BLD_106)" invcolBuild="106" timeStamp="2015-01-06T09:28:22">
+	<OperatingSystem osVendor="Microsoft" osArch="x64" majorVersion="5" minorVersion="2" spMajorVersion="2" spMinorVersion="0"/>
+	<System systemID="0445" systemIDType="BIOS"/>
+	<Device componentID="159" display="BIOS"><Application componentType="BIOS" version="3.2.1" display="BIOS"/></Device>
+	<Device componentID="20137" display="iDRAC6">
+      <Application componentType="FRMW" version="1.98" display="iDRAC6"/>
+   </Device>
+	<Device vendorID="1000" deviceID="0072" subDeviceID="1F1C" subVendorID="1028" bus="0035" device="0000" function="0000" display="Dell 6Gbps SAS HBA"><Application componentType="DRVR" version="2.0.35.10" display="Dell 6Gbps SAS HBA Driver"/></Device>
+	<Device vendorID="1000" deviceID="0072" subDeviceID="1F1D" subVendorID="1028" bus="0008" device="0000" function="0000" display="Dell PERC H200 Adapter"><Application componentType="DRVR" version="2.0.35.10" display="Dell PERC H200 Adapter Driver"/></Device>
+	<Device vendorID="1002" deviceID="4384" subDeviceID="0000" subVendorID="0000" bus="0000" device="0020" function="0004" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="4385" subDeviceID="0445" subVendorID="1028" bus="0000" device="0020" function="0000" display="ATI SMBus"><Application componentType="DRVR" version="5.10.1000.8" display="ATI SMBus Driver"/></Device>
+	<Device vendorID="1002" deviceID="4390" subDeviceID="0445" subVendorID="1028" bus="0000" device="0017" function="0000" display="Standard Dual Channel PCI IDE Controller"><Application componentType="DRVR" version="5.2.3790.1830" display="Standard Dual Channel PCI IDE Controller Driver"/></Device>
+	<Device vendorID="1002" deviceID="4396" subDeviceID="0445" subVendorID="1028" bus="0000" device="0018" function="0002" display="Standard Enhanced PCI to USB Host Controller"><Application componentType="DRVR" version="5.2.3790.1830" display="Standard Enhanced PCI to USB Host Controller Driver"/></Device>
+	<Device vendorID="1002" deviceID="4396" subDeviceID="0445" subVendorID="1028" bus="0000" device="0019" function="0002" display="Standard Enhanced PCI to USB Host Controller"><Application componentType="DRVR" version="5.2.3790.1830" display="Standard Enhanced PCI to USB Host Controller Driver"/></Device>
+	<Device vendorID="1002" deviceID="4397" subDeviceID="0445" subVendorID="1028" bus="0000" device="0018" function="0000" display="Standard OpenHCD USB Host Controller"><Application componentType="DRVR" version="5.2.3790.1830" display="Standard OpenHCD USB Host Controller Driver"/></Device>
+	<Device vendorID="1002" deviceID="4397" subDeviceID="0445" subVendorID="1028" bus="0000" device="0019" function="0000" display="Standard OpenHCD USB Host Controller"><Application componentType="DRVR" version="5.2.3790.1830" display="Standard OpenHCD USB Host Controller Driver"/></Device>
+	<Device vendorID="1002" deviceID="4398" subDeviceID="0445" subVendorID="1028" bus="0000" device="0018" function="0001" display="Standard OpenHCD USB Host Controller"><Application componentType="DRVR" version="5.2.3790.1830" display="Standard OpenHCD USB Host Controller Driver"/></Device>
+	<Device vendorID="1002" deviceID="4398" subDeviceID="0445" subVendorID="1028" bus="0000" device="0019" function="0001" display="Standard OpenHCD USB Host Controller"><Application componentType="DRVR" version="5.2.3790.1830" display="Standard OpenHCD USB Host Controller Driver"/></Device>
+	<Device vendorID="1002" deviceID="439D" subDeviceID="0000" subVendorID="0000" bus="0000" device="0020" function="0003" display="PCI standard ISA bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard ISA bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A12" subDeviceID="0000" subVendorID="0000" bus="0032" device="0000" function="0000" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A13" subDeviceID="0000" subVendorID="0000" bus="0000" device="0000" function="0000" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A16" subDeviceID="0000" subVendorID="0000" bus="0032" device="0002" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A16" subDeviceID="0000" subVendorID="0000" bus="0000" device="0002" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A17" subDeviceID="0000" subVendorID="0000" bus="0032" device="0003" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A17" subDeviceID="0000" subVendorID="0000" bus="0000" device="0003" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A18" subDeviceID="0000" subVendorID="0000" bus="0000" device="0004" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A1C" subDeviceID="0000" subVendorID="0000" bus="0000" device="0009" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1002" deviceID="5A1F" subDeviceID="0000" subVendorID="0000" bus="0032" device="0011" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1200" subDeviceID="0000" subVendorID="0000" bus="0000" device="0024" function="0000" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1200" subDeviceID="0000" subVendorID="0000" bus="0000" device="0025" function="0000" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1200" subDeviceID="0000" subVendorID="0000" bus="0000" device="0026" function="0000" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1200" subDeviceID="0000" subVendorID="0000" bus="0000" device="0027" function="0000" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1201" subDeviceID="0000" subVendorID="0000" bus="0000" device="0024" function="0001" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1201" subDeviceID="0000" subVendorID="0000" bus="0000" device="0025" function="0001" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1201" subDeviceID="0000" subVendorID="0000" bus="0000" device="0026" function="0001" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1201" subDeviceID="0000" subVendorID="0000" bus="0000" device="0027" function="0001" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1202" subDeviceID="0000" subVendorID="0000" bus="0000" device="0024" function="0002" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1202" subDeviceID="0000" subVendorID="0000" bus="0000" device="0025" function="0002" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1202" subDeviceID="0000" subVendorID="0000" bus="0000" device="0026" function="0002" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1202" subDeviceID="0000" subVendorID="0000" bus="0000" device="0027" function="0002" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1203" subDeviceID="0000" subVendorID="0000" bus="0000" device="0024" function="0003" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1203" subDeviceID="0000" subVendorID="0000" bus="0000" device="0026" function="0003" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1203" subDeviceID="0000" subVendorID="0000" bus="0000" device="0027" function="0003" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1204" subDeviceID="0000" subVendorID="0000" bus="0000" device="0024" function="0004" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1204" subDeviceID="0000" subVendorID="0000" bus="0000" device="0025" function="0004" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1204" subDeviceID="0000" subVendorID="0000" bus="0000" device="0026" function="0004" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="1022" deviceID="1204" subDeviceID="0000" subVendorID="0000" bus="0000" device="0027" function="0004" display="PCI standard host CPU bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard host CPU bridge Driver"/></Device>
+	<Device vendorID="102B" deviceID="0532" subDeviceID="0445" subVendorID="1028" bus="0010" device="0003" function="0000" display="Matrox G200eW (Winbond)"><Application componentType="DRVR" version="1.1.3.0" display="Matrox G200eW (Winbond) Driver"/></Device>
+	<Device vendorID="10B5" deviceID="8624" subDeviceID="0000" subVendorID="0000" bus="0003" device="0000" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="10B5" deviceID="8624" subDeviceID="0000" subVendorID="0000" bus="0004" device="0000" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="10B5" deviceID="8624" subDeviceID="0000" subVendorID="0000" bus="0004" device="0001" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="10B5" deviceID="8624" subDeviceID="0000" subVendorID="0000" bus="0004" device="0004" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="10B5" deviceID="8624" subDeviceID="0000" subVendorID="0000" bus="0004" device="0005" function="0000" display="PCI standard PCI-to-PCI bridge"><Application componentType="DRVR" version="5.2.3790.3959" display="PCI standard PCI-to-PCI bridge Driver"/></Device>
+	<Device vendorID="1000" deviceID="0072" subDeviceID="1f1d" subVendorID="1028" bus="8" device="0" function="0" display="PERC H200A Controller 0"><Application componentType="FRMW" version="07.03.05.00" display="PERC H200A Controller 0 Firmware"/></Device>
+	<Device componentID="11204" enum="CtrlId 2000000 DeviceId 0 Backplane" display="SAS/SATA Backplane 0:0 Backplane"><Application componentType="FRMW" version="1.07" display="SAS/SATA Backplane 0:0 Backplane Firmware"/></Device>
+	<Device componentID="13314" enum="CtrlId 2000000 DeviceId 1" display="ST9146802SS"><Application componentType="FRMW" version="S20A" display="ST9146802SS Firmware"/></Device>
+	<Device componentID="30665" enum="CtrlId 2000000 DeviceId 2" display="ST300MM0006"><Application componentType="FRMW" version="LS0A" display="ST300MM0006 Firmware"/></Device>
+	<Device vendorID="1000" deviceID="0072" subDeviceID="1f1c" subVendorID="1028" bus="23" device="0" function="0" display="6Gbps SAS HBA Controller 1"><Application componentType="FRMW" version="07.03.06.00" display="6Gbps SAS HBA Controller 1 Firmware"/></Device>
+	<Device componentID="103665" enum="Qnx2Fam" display="QLogic BCM 57xx and 57xxx Driver Family">
+    <Application componentType="DRVR" version="16.0.0" display="QLogic BCM 57xx and 57xxx Driver Family"/>
+  </Device>
+	<Device componentID="18980" display="Dell Lifecycle Controller, 1.6.5.12, A00">
+  <Application componentType="APAC" version="1.6.5.12" display="Dell Lifecycle Controller, 1.6.5.12, A00"/>
+</Device>
+	<Device componentID="196" display="32 Bit Diagnostics, 5158A3, 5158.2">
+  <Application componentType="APAC" version="5158A3" display="32 Bit Diagnostics, 5158A3, 5158.2"/>
+</Device>
+	<Device componentID="18981" display="OS Drivers Pack, 7.4.0.10, A00">
+  <Application componentType="APAC" version="7.4.0.10" display="OS Drivers Pack, 7.4.0.10, A00"/>
+</Device>
+	<Device componentID="24032" enum="PS:0" display="Power Supply">
+<Application componentType="FRMW" version="03.02.00" display="Power Supply"/>
+</Device>
+	<Device componentID="23482" enum="PS:1" display="Power Supply">
+<Application componentType="FRMW" version="01.01.01" display="Power Supply"/>
+</Device>
+	</SVMInventory>
+
+	
