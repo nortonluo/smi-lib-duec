@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
-//apply plugin: 'org.sonarqube'
+apply plugin: 'org.sonarqube'
 apply plugin: 'com.github.hierynomus.license'
 apply plugin: 'maven-publish'
 apply plugin: 'com.jfrog.artifactory'
@@ -43,16 +43,16 @@ buildscript {
   //rules  = ['dependency-parentheses','overridden-dependency-version','duplicate-dependency-class', 'all-dependency','unused-dependency']
 //}
 
-//sonarqube {
-//    properties {
-//        property "sonar.projectName", "rackhd :: smi-lib-duec"
-//        property "sonar.projectKey", "${group}:duec"
-//    }
-//}
+sonarqube {
+    properties {
+        property "sonar.projectName", "rackhd :: smi-lib-duec"
+        property "sonar.projectKey", "${group}:duec"
+    }
+}
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'Duec jar',
+        attributes 'Implementation-Title': 'DUEC jar',
                    'Implementation-Version': version
     }
 }
