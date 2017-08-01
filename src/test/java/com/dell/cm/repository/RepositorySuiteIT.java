@@ -27,7 +27,7 @@ import org.junit.runners.Suite;
  * @author Raveendra_Madala
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({com.dell.cm.repository.DCMCatalogWriterTest.class, com.dell.cm.repository.DCMRepositoryTestIT.class, com.dell.cm.repository.IDCMRepositoryTest.class,
+@Suite.SuiteClasses({com.dell.cm.repository.DCMCatalogWriterIT.class, com.dell.cm.repository.DCMRepositoryTestIT.class, com.dell.cm.repository.IDCMRepositoryTest.class,
 com.dell.cm.repository.CMCUpdatesIT.class,com.dell.cm.repository.DCMApplicatorTest.class})
 public class RepositorySuiteIT {
 

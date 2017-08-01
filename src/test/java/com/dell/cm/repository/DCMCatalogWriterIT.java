@@ -45,9 +45,9 @@ import static org.junit.Assert.*;
  *
  * @author Raveendra_Madala
  */
-public class DCMCatalogWriterTest {
+public class DCMCatalogWriterIT {
 
-    public DCMCatalogWriterTest() {
+    public DCMCatalogWriterIT() {
     }
 
     @BeforeClass
