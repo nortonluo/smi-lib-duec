@@ -1,3 +1,5 @@
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=com.dell.isg.smi:duec)](https://sonarqube.com/dashboard?id=com.dell.isg.smi%3Aduec)
+
 # smi-lib-duec
 A Jar library that provides functionality for Dell server firmware updates.
 
